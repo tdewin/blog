@@ -4,4 +4,4 @@ Blog articles for nerds. Trying to make something in between gists, blogs, stati
 Just for my memory and for your pleasure
 
 # Inkscape Blogs
-[Inkscape making an extension 2023](https://github.com/tdewin/blog/2023/inkscape-make-an-extension.md)
+[Inkscape making an extension 2023](2023/inkscape-make-an-extension.md)
