@@ -1,6 +1,7 @@
 # What are Inkscape extensions
 They are basically plugins for Inkscape that can be made under the Extension menu in python. In essence, they are scripts that are passed input and generate SVG.
 
+
 The Base directory for extensions in windows is 
 ```
 %ProgramFiles%\Inkscape\share\inkscape\extensions
@@ -54,7 +55,11 @@ In this tutorial we will only pass int (integer, non decimal numbers), but actua
 
 Interesting enough you can see at the bottom that it refers to a python file. Theoretically, inkscape can work with other languages but I've only seen samples with python.
 
-See [inx-overview](https://inkscape.gitlab.io/extensions/documentation/authors/inx-overview.html) and [inx-parameters](https://inkscape.gitlab.io/extensions/documentation/authors/inx-widgets.html#parameters)
+See 
+* [inx-overview](https://inkscape.gitlab.io/extensions/documentation/authors/inx-overview.html)
+* [inx-parameters](https://inkscape.gitlab.io/extensions/documentation/authors/inx-widgets.html#parameters)
+* [source code for hints](https://gitlab.com/inkscape/inkscape/-/blob/master/src/extension/effect.cpp)
+  
 ```node
 let menuFile = path.join(extPath,`${fName}.inx`)
 let menuInx = `<?xml version="1.0" encoding="UTF-8"?>
