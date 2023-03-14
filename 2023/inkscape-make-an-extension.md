@@ -11,7 +11,7 @@ On *nix I would expect something like
 /usr/share/inkscape/extensions
 ```
 
-For generating a template we will be using node.js, but you can get a generated Golden Circle from [tdewin/kitimo](https://github.com/tdewin/kitimo). In that case, you might have to manually rename some items. The Golden circle extension just create circle following the fibonacci row. You can the use this excellent tutorial from [Logos By Nick](https://www.youtube.com/watch?v=1hhAXrxVMeU). Honestly, this guy is the best Inkscape resource out there.
+For generating a template we will be using node.js, but you can get a generated Golden Ratio from [tdewin/kitimo](https://github.com/tdewin/kitimo). In that case, you might have to manually rename some items. The Golden Ratio extension just creates circles following the fibonacci row. You can the use this excellent tutorial from [Logos By Nick](https://www.youtube.com/watch?v=1hhAXrxVMeU). Honestly, this guy is the best Inkscape resource out there.
 
 # Getting started with node
 The extension folder itself is in program files and thus requires you to start node.js as admin in order to add the script files (Right click node and select Run as administrator, even from the start menu).
